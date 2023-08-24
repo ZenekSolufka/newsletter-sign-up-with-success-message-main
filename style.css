@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Hanken+Grotesk:wght@500&family=Lexend+Deca&family=Manrope:wght@500;700&family=Plus+Jakarta+Sans:wght@500&family=Roboto:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    height: 100vh;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+   
+    background-color: hsl(234, 29%, 20%);
+}
+
+.main{
+   
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+
+.left {
+    padding: 2rem 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.list{
+    list-style: none;
+}
+
+h1{
+    
+    padding: 2rem 0 2rem;
+    font-size: 60px;
+    line-height: 3.5rem;
+}
+
+#first-p {
+    padding-bottom: 2rem;
+    width: 90%;
+}
+
+.icon {
+    margin: 0.5rem;
+}
+
+li{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    margin-bottom: 2rem;
+}
+
+.email{
+    font-weight: 700;
+}
+
+#email {
+    height: 2.5rem;
+    padding-left: 1rem;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-bottom: 1rem;
+}
+
+button {
+    height: 2.5rem;
+    border-radius: 5px;
+    background-color: hsl(234, 29%, 20%);
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(4, 100%, 67%);
+    border: 1px solid hsl(4, 100%, 67%);
+}
+
+.photo {
+    padding: 1rem;
+}
+
+.succes-message {
+    background-color: #fff;
+    border-radius: 20px;
+    width: 30%;
+}
+
+.s-img {
+    padding: 2.5rem 2.5rem 0;
+
+}
+
+.box{
+    margin: 0 2.5rem 0;
+
+    
+}
+
+.parr{
+    padding-bottom: 2rem;
+}
+
+
+
+.buttonn {
+    height: 2.5rem;
+    border-radius: 5px;
+    background-color: hsl(234, 29%, 20%);
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 2.5rem;
+    width: 100%;
+    border: 1px solid hsl(234, 29%, 20%);
+}
+
+.buttonnn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.validate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.valid-email{
+    font-weight: 700;
+    color: hsl(4, 100%, 67%);
+}
+
+.end-h1{
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 376px) {
+    .photo {
+        display: none;
+    }
+
+    .left {
+        padding: 0;
+    }
+
+    .main {
+        border-radius: 0;
+    }
+
+    .icon {
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+
+    .par {
+        font-size: 14px;
+    }
+
+    .email {
+        font-size: 13px;
+    }
+
+    #first-p {
+        font-size: 16px;
+    }
+
+    .mobile-photo {
+        margin-top: 12rem;
+        width: 100%;
+    }
+
+    .mobile-photo img {
+        width: 100%;
+    }
+
+    .mobile-main {
+        padding: 0 1rem 2rem;
+    }
+
+    .mobile-main h1 {
+        font-size: 40px;
+    }
+
+    .succes-message {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .s-img {
+        padding-top: 10rem;
+    }
+
+    .box {
+        margin: 1rem;
+    }
+    
+    .end-h1 {
+        font-size: 40px;
+        line-height: 1;
+    }
+
+    .buttonn {
+        margin-top: 5rem;
+        padding: 1rem 0 2rem;
+    }
+
+    .list li {
+        display: flex;
+        align-items: flex-start;
+    }
+}
+
+@media only screen and (min-width: 376px) {
+    .mobile-photo {
+        display: none;
+    }
+}
